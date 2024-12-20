@@ -31,7 +31,7 @@ const Login = () => {
     };
 
     return (
-        <div className="container w-25 pt-5">
+        <div className="container pt-5">
             <h2>Login</h2>
             <form onSubmit={handleLogin}>
                 <div className="mb-3">

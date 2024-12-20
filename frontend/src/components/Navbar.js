@@ -18,6 +18,10 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light nav-color">
             <div className="container-fluid">
+                <a href='/'>
+                <img width='45' className='me-2' 
+                src='https://assets.ccbp.in/frontend/intermediate-rwd/freemium-business-model-1-img.png' />
+                </a>
                 <Link className="navbar-brand text-white" to="/">CollabTool</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
